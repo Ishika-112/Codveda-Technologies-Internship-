@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task Manager</title>
+
+    <link rel="stylesheet"
+    href="{% static 'css/auth.css' %}">
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        Task Manager
+    </div>
+
+    <div class="nav-links">
+        <a href="{% url 'home' %}">Home</a>
+        <a href="{% url 'register' %}">Register</a>
+        <a href="{% url 'login' %}">Login</a>
+    </div>
+
+</nav>
+
+<section class="hero">
+
+    <h1>Manage Your Tasks Easily</h1>
+
+    <p>
+        Organize your daily work and increase productivity.
+    </p>
+
+    <a href="{% url 'register' %}" class="btn">
+        Get Started
+    </a>
+
+</section>
+
+</body>
+</html>

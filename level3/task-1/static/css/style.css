@@ -1,0 +1,31 @@
+body{
+    background:#f4f6f9;
+}
+
+.card{
+    border:none;
+    border-radius:15px;
+}
+
+.navbar{
+    padding:15px;
+}
+
+.btn{
+    border-radius:10px;
+}
+
+h2{
+    margin-bottom:30px;
+}
+
+@media(max-width:768px){
+
+    h2{
+        font-size:24px;
+    }
+
+    .card{
+        margin-bottom:20px;
+    }
+}

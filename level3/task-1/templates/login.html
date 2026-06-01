@@ -1,0 +1,46 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+
+    <link rel="stylesheet"
+    href="{% static 'css/auth.css' %}">
+</head>
+
+<body>
+
+<div class="form-container">
+
+    <h2>Login</h2>
+
+    <form method="POST">
+
+        {% csrf_token %}
+
+        {{ form.as_p }}
+
+        <button type="submit">
+            Login
+        </button>
+
+    </form>
+
+    <p>
+        Don't have an account?
+
+        <a href="{% url 'register' %}">
+            Register
+        </a>
+    </p>
+
+    <p>
+        <a href="{% url 'password_reset' %}">
+            Forgot Password?
+        </a>
+    </p>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    box-sizing:border-box;
+}
+body{
+    background-color:azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    height:auto;
+    width:20%;
+    background-color:white;
+    padding:30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+    margin-top:15%;
+}
+h1{
+    margin-bottom:15px;
+
+}
+.count{
+    height:50px;
+    width:100%;
+    margin-bottom:15px;
+    font-weight:bold;
+    font-size:48px;
+}
+.btn{
+    height:50px;
+    width:100%;
+   
+}
+button{
+    height:35px;
+    width:65px;
+    margin:5px;
+    font-size:18px;
+    border:none;
+    border-radius:5px;
+    margin-top:15px;
+    padding:5px;
+    color:white;
+}
+#dec{
+    background-color:red;
+    
+}
+#res{
+    background-color:blue;
+}
+#inc{
+    background-color:green;
+}
+
