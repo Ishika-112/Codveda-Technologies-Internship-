@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>Creative Agency</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"href="style.css">
+
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Custom Theme -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#7B2FF7',
+            secondary: '#F107A3',
+            dark: '#111827'
+          },
+          fontFamily: {
+            poppins: ['Poppins', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="font-poppins bg-gradient-to-r from-purple-100 to-pink-100">
+
+  <!-- Navbar -->
+  <nav class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+
+      <h1 class="text-3xl font-bold text-primary">
+        CreativeX
+      </h1>
+
+      <ul class="hidden md:flex gap-8 text-gray-700 font-medium">
+        <li><a href="#" class="hover:text-primary">Home</a></li>
+        <li><a href="#services" class="hover:text-primary">Services</a></li>
+        <li><a href="#about" class="hover:text-primary">About</a></li>
+        <li><a href="#contact" class="hover:text-primary">Contact</a></li>
+      </ul>
+
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="max-w-7xl mx-auto px-6 py-24 text-center">
+
+    <h2 class="text-5xl md:text-6xl font-bold leading-tight mb-6">
+      We Build Modern
+      <span class="text-primary">Digital Experiences</span>
+    </h2>
+
+    <p class="text-lg text-gray-700 max-w-3xl mx-auto mb-10">
+      CreativeX is a modern digital agency helping brands grow through
+      innovative design, development, and marketing solutions.
+    </p>
+
+    <button class="bg-primary hover:bg-secondary text-white px-10 py-4 rounded-full text-lg shadow-lg transition duration-300">
+      Get Started
+    </button>
+
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="max-w-7xl mx-auto px-6 py-20">
+
+    <h2 class="text-4xl font-bold text-center mb-14">
+      Our Services
+    </h2>
+
+    <div class="grid md:grid-cols-3 gap-8">
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold mb-4 text-primary">
+          Web Design
+        </h3>
+
+        <p class="text-gray-600">
+          We create responsive and visually stunning websites with modern UI/UX principles.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold mb-4 text-primary">
+          Development
+        </h3>
+
+        <p class="text-gray-600">
+          Full-stack web development solutions tailored to your business needs.
+        </p>
+      </div>
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg hover:-translate-y-2 hover:shadow-2xl transition duration-300">
+        <h3 class="text-2xl font-semibold mb-4 text-primary">
+          Digital Marketing
+        </h3>
+
+        <p class="text-gray-600">
+          Grow your brand online with SEO, social media marketing, and advertising.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-white py-20">
+
+    <div class="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
+
+      <div>
+        <h2 class="text-4xl font-bold mb-6">
+          About Our Agency
+        </h2>
+
+        <p class="text-gray-600 text-lg leading-8">
+          We are a passionate team of designers and developers dedicated to building
+          modern digital products that help businesses succeed in the online world.
+          Our goal is to deliver creative, functional, and impactful solutions.
+        </p>
+      </div>
+
+      <div class="bg-gradient-to-r from-primary to-secondary h-80 rounded-3xl shadow-2xl">
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Statistics -->
+  <section class="max-w-7xl mx-auto px-6 py-20">
+
+    <div class="grid md:grid-cols-4 gap-8 text-center">
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 class="text-4xl font-bold text-primary mb-2">150+</h3>
+        <p class="text-gray-600">Projects Completed</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 class="text-4xl font-bold text-primary mb-2">100+</h3>
+        <p class="text-gray-600">Happy Clients</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 class="text-4xl font-bold text-primary mb-2">5+</h3>
+        <p class="text-gray-600">Years Experience</p>
+      </div>
+
+      <div class="bg-white p-8 rounded-3xl shadow-lg">
+        <h3 class="text-4xl font-bold text-primary mb-2">24/7</h3>
+        <p class="text-gray-600">Support</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-dark text-white py-20">
+
+    <div class="max-w-4xl mx-auto text-center px-6">
+
+      <h2 class="text-4xl font-bold mb-6">
+        Let's Work Together
+      </h2>
+
+      <p class="text-gray-300 mb-10">
+        Have a project in mind? Contact us today and let’s build something amazing together.
+      </p>
+
+      <button class="bg-primary hover:bg-secondary px-10 py-4 rounded-full text-lg transition duration-300">
+        Contact Us
+      </button>
+
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black text-gray-400 text-center py-5">
+    © 2026 CreativeX Agency. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
